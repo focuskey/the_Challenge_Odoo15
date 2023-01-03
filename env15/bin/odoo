@@ -1,0 +1,7 @@
+#!/home/ubuntu/work15/env15/bin/python3
+# EASY-INSTALL-DEV-SCRIPT: 'odoo==15.0','odoo'
+__requires__ = 'odoo==15.0'
+__import__('pkg_resources').require('odoo==15.0')
+__file__ = '/home/ubuntu/work15/odoo/setup/odoo'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))

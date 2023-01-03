@@ -1,0 +1,53 @@
+<odoo>
+    <!--图书应用菜单-->
+    <menuitem id="menu_library" name="Carpet"/>
+    <!-- 打开图书列表的动作 -->
+    <record id="action_library_book" model="ir.actions.act_window">
+        <field name="name">Carpet_test</field>
+        <field name="res_model">library.book</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <!-- 打开图书列表的菜单 -->
+<!--    <menuitem id="menu_library_book"-->
+<!--              name="Carpet"-->
+<!--              parent="menu_library"-->
+<!--              action="action_library_book" />-->
+            <menuitem id="menu_library_book1567"
+              name="CARPET_1"
+              parent="menu_library_book"
+              action="action_library_book" />
+
+            <menuitem id="menu_library_book567"
+              name="CARPET_3"
+              parent="menu_library_book"
+              action="action_library_book" />
+
+            <menuitem id="menu_library_book3567"
+              name="CARPET_2"
+              parent="menu_library_book"
+              action="action_library_book" />
+
+        <menuitem id="kjkte323" name="The Last View1" parent="menu_library_book567" action="action_library_book"/>
+            <menuitem id="kjjine242" name="The value of 3" parent="kjkte323" action="action_library_book" />
+
+        <menuitem id="kjkte322" name="The Last View2" parent="menu_library_book567" action="action_library_book"/>
+        <menuitem id="kjkte334" name="The Last View3" parent="menu_library_book3567" action="action_library_book"/>
+        <menuitem id="kjkte3276" name="The Last View4" parent="menu_library_book567" action="action_library_book"/>
+
+            <menuitem id="menu_library_book"
+              name="CARPET"
+              parent="menu_library"
+              action="action_library_book" />
+
+
+        <menuitem id="menu_library_book2"
+              name="TIMBER"
+              parent="menu_library"
+              action="action_library_book" />
+        <menuitem id="menu_library_book3"
+              name="VINYL"
+              parent="menu_library"
+              action="action_library_book" />
+
+
+</odoo>
